@@ -1,0 +1,11 @@
+name: YouTube Shorts Automation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start automation
+        run: echo "YouTube Shorts automation is ready!"
